@@ -45,7 +45,10 @@
 #ifdef	HAVE_SYS_PARAM_H
 # include	<sys/param.h>	/* OpenBSD prereq for sysctl.h */
 #endif
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-W#warnings"
 # include	<sys/sysctl.h>
+#pragma clang diagnostic pop
 #endif
 
 #ifdef	HAVE_POLL_H
