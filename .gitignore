@@ -5,3 +5,7 @@ config.log
 config.status
 *.o
 *.a
+GPATH
+GRTAGS
+GTAGS
+
