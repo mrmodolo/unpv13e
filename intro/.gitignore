@@ -1,4 +1,7 @@
 *.o
+GPATH
+GRTAGS
+GTAGS
 daytimetcpcli
 daytimetcpcli1
 daytimetcpcli2
