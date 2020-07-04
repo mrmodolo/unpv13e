@@ -7,7 +7,7 @@ PROGS =	daytimetcpcli daytimetcpcli1 daytimetcpcli2 daytimetcpcli3 \
 
 all:	${PROGS}
 
-daytimetcpcli:	daytimetcpcli.o
+daytimetcpcli:daytimetcpcli.o
 		${CC} ${CFLAGS} -o $@ daytimetcpcli.o ${LIBS}
 
 daytimetcpcli1:	daytimetcpcli1.o
